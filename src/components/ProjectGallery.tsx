@@ -83,6 +83,7 @@ export default function ProjectGallery() {
                   alt={item.title} 
                   className="w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
                 
                 {/* Backdrop dark gradients */}

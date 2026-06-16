@@ -19,6 +19,7 @@ export default function HomeHero({ scrollToSection }: HomeHeroProps) {
           alt="Jukes Consults Limited Corporate Head Office" 
           className="w-full h-full object-cover object-center opacity-30 transform scale-105"
           referrerPolicy="no-referrer"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-dark via-navy-dark/95 to-navy-dark/20" />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-dark via-transparent to-navy-dark/70" />
@@ -123,6 +124,7 @@ export default function HomeHero({ scrollToSection }: HomeHeroProps) {
               alt="Supplies representation" 
               className="absolute inset-0 w-full h-full object-cover scale-105"
               referrerPolicy="no-referrer"
+              fetchPriority="high"
             />
             
             <div className="relative z-20 space-y-1">
